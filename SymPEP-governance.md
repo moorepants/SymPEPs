@@ -25,8 +25,9 @@ goverance. With no mechanism to make hard decisions, SymPy struggles to make
 larger changes that can improve the software and/or community. Most other large
 scientific Python software communities have decision making and leadership
 transfer processes. When comparing SymPy to these communities, we are a bit
-rougher around the edges and much less organized. To rememdy this, this SymPEP
-proposes some new governance processes for SymPy, like regular in-person
+rougher around the edges and much less organized. It is difficult to make any
+significant changes because of the lack of process. To rememdy this, this
+SymPEP proposes some new governance processes for SymPy, like regular in-person
 goverance meetings, a board of core developers, democratic selection of
 leaders, and limits of power.
 
@@ -49,24 +50,23 @@ made in the first place. See [SymPEP 1](SymPEP-0001) for more information.
 
 ### Current leadership model
 
-Ondrej Certik started the project in 2006 and was the defacto "project leader".
-He encouraged many people to join and help him develop the software, very much
+Ondrej Certik started SymPy in 2006 and was the defacto "project leader". He
+encouraged many people to join and help him develop the software, very much
 leading by example. In January 2011, Ondrej officially [passed his leadership
 role](https://groups.google.com/g/sympy/c/9FMoGT6gNcw/m/RFIP2UIIxJ8J) to Aaron
-Meurer. Later in May 2011, Ondrej [declared what defined Aaron's role as
-project
-leader](https://groups.google.com/g/sympy/c/i-XD15syvqs/m/aeh2A2-YAKAJ):
-
-Key things were:
+Meurer. Later in May 2011, Ondrej [declared the definition of Aaron's role as
+project leader as well as his
+role](https://groups.google.com/g/sympy/c/i-XD15syvqs/m/aeh2A2-YAKAJ). Key
+things in that email were:
 
 - there is a "project owner" (Ondrej) and "project leader" (Aaron)
 - project leader makes all code related decisions, owner cannot override leader
   on code decisions
 - owner and leader define the "vision of SymPy"
 - owner can override leader: 1) to replace the leader, 2) resolve conflict with
-  leader and member
+  leader and a member
 
-He also defined decision making:
+He also defined decision making in this email:
 
 - informal consensus (democracy) will be used to make decisions (+1/-1:
   referring to our pull request "voting" system at the time)
@@ -82,6 +82,7 @@ over:
 - domain names
 - github admin
 - numfocus membership
+- push access rights
 
 As of May 2011, no new public declarations on the governance of SymPy have been
 made other than maybe the introduction of SymPEPs in September 2023.
