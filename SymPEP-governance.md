@@ -75,40 +75,64 @@ He also defined decision making:
 - project leader is responsible for balancing democratic and dictatorial
   decision making
 
+It is important to note that there various things only some people have control
+over:
+
+- SymPy finances
+- domain names
+- github admin
+- numfocus membership
+
 As of May 2011, no new public declarations on the governance of SymPy have been
 made other than maybe the introduction of SymPEPs in September 2023.
 
 ### Our decision making model in practice
 
 Our current decision making process involves (mostly) public discussion on the
-email list, chat services, or the issue tracker. Ideas are proposed in the
-mailing list or as a patch via Github's pull request system and become open for
-discussion. A tacit consensus is built, which basically means:
+email list, live chat service, or the issue tracker. Most often, ideas are
+proposed on the mailing list or as a patch via Github's pull request system and
+become open for discussion. A tacit consensus decision making model then
+follows, which basically means (for us):
 
 - there should be at least one developer other than the proposer in support of
-  the proposal and this relates to a general policy that every patch must be
-  reviewed and approved by at least one another developer
+  the proposal (this relates to a general policy that every patch must be
+  reviewed and approved by at least one another developer)
 - if someone objects to the idea (i.e. a -1), it is up to the proposer to
   modify their idea until there are no objections
 - absence of support or non-support assumes tacit approval from the community
   at large
 - some reasonable time should be given for community members to weigh in and it
   up to the proposer to feel this out, i.e. bigger decisions need more time
+- if no consensus can be reached, the project leader should make a decision
+
+It has never been officially established who has the +1/-1 voting right, so
+theorectically anyone can do so, even if they are not part of the SymPy
+community. SymPy also unofficially seems to support a meritocracy, i.e. the
+more you do the more decision making power you gain. If you do "enough" and ask
+for push access, you can be granted it by the project leader. We sometimes
+refer to the group of contributors who have push access to the Github
+repository as the "core developers".
 
 At some point, the +1/-1 style voting on the patch discussion has decreased,
-with some developers possibly using the GIthub "thumb's up/down" emoji in teh
+with some developers possibly using the GIthub "thumb's up/down" emoji in the
 same way.
 
-Many scientific Python communities followed the Python language community in
-using Python Enhancement Proposals and SymPy adopted this with the merger of
-SymPEP 001 in September 2023, but there has been little to no use of the system
-since then.
+The existing decision making model works well for small to medium changes to
+the code base, but often feels lacking for large proposals to the code or to
+the community. Many scientific Python communities followed the Python language
+community in using Python Enhancement Proposals to address this and SymPy
+adopted this with the merger of SymPEP 001 in September 2023, but there has
+been little to no use of the system since then.
 
 ## Detailed description
 
-This section should provide a detailed description of the proposed change.
-It should include examples of how the new functionality would be used,
-intended use-cases and pseudocode illustrating its use.
+This SymPEP proposes:
+
+- retain tacit consensus for small to medium changes
+- SymPEPs for large changes
+- move to a board with formalized voting
+- introduce quartely video conferences
+- public finances
 
 ## Related Work
 
