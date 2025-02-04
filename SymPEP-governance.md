@@ -55,8 +55,8 @@ encouraged many people to join and help him develop the software, very much
 leading by example. In January 2011, Ondrej officially [passed his leadership
 role](https://groups.google.com/g/sympy/c/9FMoGT6gNcw/m/RFIP2UIIxJ8J) to Aaron
 Meurer. Later in May 2011, Ondrej [declared the definition of Aaron's role as
-project leader as well as his
-role](https://groups.google.com/g/sympy/c/i-XD15syvqs/m/aeh2A2-YAKAJ). Key
+project leader as well as his role as project
+owner](https://groups.google.com/g/sympy/c/i-XD15syvqs/m/aeh2A2-YAKAJ). Key
 things in that email were:
 
 - there is a "project owner" (Ondrej) and "project leader" (Aaron)
@@ -75,17 +75,27 @@ He also defined decision making in this email:
 - project leader is responsible for balancing democratic and dictatorial
   decision making
 
-It is important to note that there various things only some people have control
-over:
+As of May 2011, no new public declarations on the governance and decision
+making of SymPy have been made other than maybe the introduction of SymPEPs in
+September 2023.
 
-- SymPy finances
-- domain names
-- github admin
-- numfocus membership
-- push access rights
+### What are the project leader and owner actually responsible for
 
-As of May 2011, no new public declarations on the governance of SymPy have been
-made other than maybe the introduction of SymPEPs in September 2023.
+Most things can be done by anyone who volunteers to do so in the SymPy
+community, but here are a list of responsibilities that only the project leader
+and owner have the ability to control.
+
+- NumFOCUS: SymPy is a sub-organization in the US 501(c)(3) NumFOCUS. NumFOCUS
+  provides fiscal sponsorship to the sub-organizations, allowing them to
+  legally manage money. The project leader and owner are the liasons to
+  NumFOCUS and make any decisions regarding this membership.
+- Finances: SymPy has a bank account that is administered by NumFOCUS. Only the
+  project leader and owner can see the finances or distribute the money.
+- Domain names: SymPy owns some domain names, e.g. sympy.org and pydy.org,
+  which are paid for by the project funds.
+- Github administration: Only the project leader and owner have full
+  adiminstrative rights on the SymPy Github organization. One important feature
+  is the ability to give others push access to the repository.
 
 ### Our decision making model in practice
 
@@ -125,13 +135,15 @@ community in using Python Enhancement Proposals to address this and SymPy
 adopted this with the merger of SymPEP 001 in September 2023, but there has
 been little to no use of the system since then.
 
+2016 mention of "all prs must be reviewed" policy: https://groups.google.com/g/sympy/c/KJwDwT_P6Lw/m/27ha6ipuBwAJ
+
 ## Detailed description
 
 This SymPEP proposes:
 
 - retain tacit consensus for small to medium changes
 - SymPEPs for large changes
-- move to a board with formalized voting
+- move to a steering council with an explicit decision making process
 - introduce quartely video conferences
 - public finances
 
@@ -140,6 +152,23 @@ This SymPEP proposes:
 This section should list relevant and/or similar technologies, possibly in other
 libraries. It does not need to be comprehensive, just list the major examples of
 prior and relevant art.
+
+NumPy, SciPy, and matplotlib all have adopted an explicitly defined governance
+and decision makign structure. They all have similar governance (they seemed to
+be based on the same document). The primary difference is that NumPy has only a
+steering council, SciPy has a Benevolent Dictator for Life + steering council,
+and matplotlib has a Project Lead + steering council.
+
+- NumPy: https://numpy.org/doc/stable/dev/governance/governance.html
+- SciPy: https://docs.scipy.org/doc/scipy/dev/governance.html
+- matplotlib: https://matplotlib.org/governance/governance.html
+
+Jupyter has only a steering council:
+https://jupyter.org/governance/overview.html and a decision making guide:
+https://jupyter.org/governance/decision_making.html
+
+Scikit-Learn
+https://scikit-learn.org/stable/governance.html
 
 ## Implementation
 
